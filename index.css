@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+span {
+    position: absolute;
+    font-size: 30px;
+    font-style: italic;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 20px);
+}
+.imgg {
+    width: 100%;
+    max-height: 300px;
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    
+    top: 50%;
+
+}
+.heart {
+
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+  }
+  
+  .heart::before, .heart::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 52px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+    background: red;
+  }
+  
+  .heart::before {
+    left: 50px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  
+  .heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+.valentin1  {
+    color: black;
+}
+.card-title {
+    color: black;
+
+}
+.card-text {
+    color: black;
+}
