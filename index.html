@@ -18,6 +18,16 @@
     </header>
     <hr>
     <main>
+        <div id="chatgpt-container"></div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@openai/chatgpt@1.0.0/dist/chatgpt.js"></script>
+
+        <script>
+            var chatGPT = new ChatGPT({
+            apiKey: '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',
+            container: 'chatgpt-container'
+            });
+        </script>
         <div class="container text-center">
             <div class="row">
                 <div class="col mt-2 ">
